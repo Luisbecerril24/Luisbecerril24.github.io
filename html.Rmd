@@ -1,0 +1,36 @@
+---
+title: "Mi primera matriz"
+author: "Eduardo Chavez"
+date: "8/10/2021"
+output: html_document
+---
+
+# creando dos vectores 
+
+voy a crear el vector gato y el vector perro
+
+```{r}
+gato<-c(1,2,3,4)
+perro<-c("salchicha","labrador","husky","yorkie") 
+gato 
+perro 
+```
+
+# Creando una matriz por columnas 
+
+esta es mi primera matriz por colunmas 
+
+```{r}
+por_columnas<-cbind(gato, perro) 
+por_columnas
+```
+
+# Creando una matriz por renglones  
+
+esta es mi primera matriz por renglones  
+
+```{r}
+por_renglones<-rbind(gato, perro) 
+por_renglones 
+```
+
